@@ -9,7 +9,7 @@ import datetime
 
 output  = '/media/card/sysmon.log'
 pidfile = '/var/run/sysmon.pid'
-wait    = 300
+wait    = 30
 
 
 def readPID( remove ):
